@@ -17,3 +17,4 @@ git push -u origin master
     git remote add origin https://github.com/username/test.git    
     $git fetch origin  
     $git merge origin/master  
+这个时候也是要重新commit一下才行。
