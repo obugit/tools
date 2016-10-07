@@ -16,4 +16,6 @@ git push -u origin master
 如果出现多处提交的话要弄好矛盾，跨版本提交要先合并然后再提交。但还是有问题怎么办
     git remote add origin https://github.com/username/test.git    
     $git fetch origin  
-    $git merge origin/master  
+    $git merge origin/master 
+
+同步代码的话直接使用git pull
