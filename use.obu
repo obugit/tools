@@ -2,10 +2,12 @@ or create a new repository on the command line
 echo "# tools" >> README.md
 git init
 git add README.md
+git config --global user.email "1072341074@qq.com"
+git config --global user.name "obugit"
 git commit -m "first commit"
 git remote add origin https://github.com/obugit/tools.git
 git push -u origin master
-
+在这里输入用户名obugit以及密码
 
 …or push an existing repository from the command line
 git remote add origin https://github.com/obugit/tools.git
