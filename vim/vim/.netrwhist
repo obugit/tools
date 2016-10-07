@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/nfs/device/1、UART/self-test'
+let g:netrw_dirhist_2='/home/nfs/2netfile../network/tcp/tcp_server'
+let g:netrw_dirhist_3='/root/Desktop/??0530'

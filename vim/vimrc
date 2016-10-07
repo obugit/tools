@@ -1,0 +1,58 @@
+syntax on
+set nu
+set ruler
+set autoindent
+set tabstop=4
+set background=dark
+set softtabstop=4
+set t_Co=256
+"colorscheme molokai
+set laststatus=2
+
+"taglist-------------------
+"let Tlist_Auto_Open=1
+let Tlist_Use_Right_Window=1
+let Tlist_Show_One_File=1
+let TList_Use_Right_Window=1
+let Tlist_WinHeigth=100
+let Tlist_WinWidth=30
+let Tlist_Exit_OnlyWindow=1
+let TList_Ctags_Cmd='/root/Desktop/2016052401/tags'
+noremap <F8> :TlistToggle<CR>
+
+
+"NERDTree-------------------
+"autocmd vimenter * NERDTree
+map <F9> :NERDTreeToggle<CR>
+
+"设置编码
+let $termencoding=&encoding
+set fileencodings=utf-8,gbk
+
+
+set tags=tags;/
+set tags+=~/.vim/systags
+set tags=/home/linshaobo/Desktop/bicycle/tags
+cs add /home/linshaobo/Desktop/bicycle/cscope.out
+
+set tags=/home/data/windows/rtt项目代码/网络收音机/1stm32radio_svn66_v4/stm32radio_svn66/tags
+cs add /home/data/windows/rtt项目代码/网络收音机/1stm32radio_svn66_v4/stm32radio_svn66/cscope.out
+set tags=/root/Desktop/rt-thread-2.1.0_beta/bsp/stm32f10x/tags
+cs add /root/Desktop/rt-thread-2.1.0_beta/bsp/stm32f10x/cscope.out
+set tags=/home/data/windows/rtt项目代码/网络收音机/1stm32radio_svn66_v4/stm32radio_svn66/tags
+cs add /home/data/windows/rtt项目代码/网络收音机/1stm32radio_svn66_v4/stm32radio_svn66/cscope.out
+
+set tags=/home/data/windows/rtt项目代码/enc28j60/tags
+cs add /home/data/windows/rtt项目代码/enc28j60/cscope.out
+set tags=/home/shaobo/Desktop/rt-thread-master2.1/bsp/stm32f10x/tags
+cs add /home/shaobo/Desktop/rt-thread-master2.1/bsp/stm32f10x/cscope.out
+set tags=/home/shaobo/Desktop/bicycle/bsp/stm32f10x/tags
+cs add /home/shaobo/Desktop/bicycle/bsp/stm32f10x/cscope.out
+set tags=/home/shaobo/Desktop/example/tags
+cs add /home/shaobo/Desktop/example/cscope.out
+
+set tags=/media/shaobo/00049CD7000F1571/windows/bicycle/0824usegcc/bsp/stm32f10x/tags
+cs add /media/shaobo/00049CD7000F1571/windows/bicycle/0824usegcc/bsp/stm32f10x/cscope.out
+set tags=/media/shaobo/00049CD7000F1571/windows/bicycle/0824usegcc/bsp/stm32f10x/tags
+cs add /media/shaobo/00049CD7000F1571/windows/bicycle/0824usegcc/bsp/stm32f10x/cscope.out
+
