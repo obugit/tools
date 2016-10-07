@@ -1,2 +1,6 @@
 # rsync -zvrtopg -progress -e 'ssh -p 端口号' root@192.xx.xx.xx:/文件目录/  本机的目录地址
+<<<<<<< HEAD
 rsync -zvrtopg -progress -e 'ssh -p 22' /home/shaobo/Desktop/gitcode/* root@192.168.0.102:/home/linshaobo/gitcode
+=======
+rsync -zvrtopg -progress -e 'ssh -p 22' /home/shaobo/Desktop/gitcode root@192.168.0.102:/home/linshaobo/gitcode
+>>>>>>> origin/master
