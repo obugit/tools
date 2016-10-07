@@ -1,0 +1,4 @@
+mount /dev/sda1 /home/shaobo/Desktop/windows
+mount /dev/sda2 /home/shaobo/Desktop/data
+mount /dev/sda3 /home/shaobo/Desktop/arch
+
